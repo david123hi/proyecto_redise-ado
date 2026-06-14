@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi perfil — Compañero Invisible</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <a href="index.html" class="sidebar-brand">
+    <div class="brand-icon">💜</div>
+    <span>Compañero Invisible</span>
+  </a>
+
+  <div class="sidebar-section-label">Principal</div>
+  <a href="dashboard.html">
+    <span class="sidebar-icon">🏠</span> Inicio
+  </a>
+  <a href="users.html">
+    <span class="sidebar-icon">🤝</span> Comunidad
+  </a>
+  <a href="#">
+    <span class="sidebar-icon">💬</span> Conversaciones
+  </a>
+
+  <div class="sidebar-section-label">Cuenta</div>
+  <a href="perfil.html" class="active">
+    <span class="sidebar-icon">👤</span> Mi perfil
+  </a>
+  <a href="#">
+    <span class="sidebar-icon">⚙️</span> Configuración
+  </a>
+
+  <div class="sidebar-footer">
+    <a href="index.html" style="color:rgba(255,255,255,0.5);">
+      <span class="sidebar-icon">🚪</span> Cerrar sesión
+    </a>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <div class="page-header">
+    <h1>Mi perfil</h1>
+    <p>Gestiona tu información y preferencias de forma anónima</p>
+  </div>
+
+  <!-- PROFILE HEADER CARD -->
+  <div class="profile-header">
+    <div class="profile-avatar">🌟</div>
+    <div class="profile-info">
+      <h2>Usuario Anónimo</h2>
+      <p>Miembro de la comunidad · Desde mayo 2024</p>
+      <div class="flex-gap mt-1">
+        <span class="badge badge-navy">✅ Verificado</span>
+        <span class="badge" style="background:rgba(255,255,255,0.15); color:white;">💬 12 conversaciones</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- EDIT PROFILE -->
+  <div class="card section">
+    <h2>✏️ Editar información</h2>
+    <p class="text-muted mb-3">Recuerda que tu nombre es anónimo. No uses datos personales reales.</p>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+      <div class="form-group">
+        <label class="form-label">Nombre anónimo</label>
+        <input type="text" value="Usuario">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Correo electrónico</label>
+        <input type="email" value="usuario@email.com">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="form-label">Sobre mí</label>
+      <textarea>Me gusta ayudar a otras personas y compartir lo que he aprendido.</textarea>
+    </div>
+
+    <div class="form-group">
+      <label class="form-label">Área de experiencia o apoyo</label>
+      <select>
+        <option>Ansiedad</option>
+        <option>Estrés académico</option>
+        <option>Problemas familiares</option>
+        <option>Soledad</option>
+        <option>Autoestima</option>
+        <option>Apoyo emocional general</option>
+      </select>
+    </div>
+
+    <div class="flex-gap">
+      <button class="btn btn-primary">Guardar cambios</button>
+      <button class="btn btn-outline">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="card section">
+    <h2>📊 Mi actividad</h2>
+    <div class="stats" style="margin-bottom:0;">
+      <div class="stat-card">
+        <span class="stat-icon">💬</span>
+        <span class="stat-number">12</span>
+        <p>Conversaciones</p>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">🤝</span>
+        <span class="stat-number">8</span>
+        <p>Personas ayudadas</p>
+      </div>
+      <div class="stat-card">
+        <span class="stat-icon">⭐</span>
+        <span class="stat-number">4.9</span>
+        <p>Valoración</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/perfil.js"></script>
+</body>
+</html>

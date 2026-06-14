@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comunidad — Compañero Invisible</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <a href="index.html" class="sidebar-brand">
+    <div class="brand-icon">💜</div>
+    <span>Compañero Invisible</span>
+  </a>
+
+  <div class="sidebar-section-label">Principal</div>
+  <a href="dashboard.html">
+    <span class="sidebar-icon">🏠</span> Inicio
+  </a>
+  <a href="users.html" class="active">
+    <span class="sidebar-icon">🤝</span> Comunidad
+  </a>
+  <a href="#">
+    <span class="sidebar-icon">💬</span> Conversaciones
+  </a>
+
+  <div class="sidebar-section-label">Cuenta</div>
+  <a href="perfil.html">
+    <span class="sidebar-icon">👤</span> Mi perfil
+  </a>
+  <a href="#">
+    <span class="sidebar-icon">⚙️</span> Configuración
+  </a>
+
+  <div class="sidebar-footer">
+    <a href="index.html" style="color:rgba(255,255,255,0.5);">
+      <span class="sidebar-icon">🚪</span> Cerrar sesión
+    </a>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+
+  <div class="page-header flex-between">
+    <div>
+      <h1>Comunidad</h1>
+      <p>Personas disponibles para escucharte y acompañarte hoy</p>
+    </div>
+    <div class="flex-gap">
+      <select style="width:auto; padding:9px 36px 9px 14px; font-size:0.875rem;">
+        <option>Todas las categorías</option>
+        <option>Ansiedad</option>
+        <option>Estrés académico</option>
+        <option>Soledad</option>
+        <option>Autoestima</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- COMMUNITY GRID -->
+  <div class="cards">
+
+    <div class="user-card">
+      <div class="user-card-avatar">🌙</div>
+      <div class="flex-between mb-1">
+        <h3>Luna23</h3>
+        <span style="width:9px; height:9px; background:#0D9F6B; border-radius:50%; display:inline-block;" title="En línea"></span>
+      </div>
+      <p>Pasó por ansiedad social y ayuda a otros estudiantes. Experiencia de 2 años.</p>
+      <span class="badge badge-purple">Ansiedad</span>
+      <div class="mt-2">
+        <button class="btn btn-success btn-sm">Hablar ahora</button>
+      </div>
+    </div>
+
+    <div class="user-card">
+      <div class="user-card-avatar">⭐</div>
+      <div class="flex-between mb-1">
+        <h3>Atlas09</h3>
+        <span style="width:9px; height:9px; background:#0D9F6B; border-radius:50%; display:inline-block;" title="En línea"></span>
+      </div>
+      <p>Superó el estrés académico y comparte estrategias de organización efectivas.</p>
+      <span class="badge badge-blue">Estrés académico</span>
+      <div class="mt-2">
+        <button class="btn btn-success btn-sm">Hablar ahora</button>
+      </div>
+    </div>
+
+    <div class="user-card">
+      <div class="user-card-avatar">☀️</div>
+      <div class="flex-between mb-1">
+        <h3>Sol77</h3>
+        <span style="width:9px; height:9px; background:#0D9F6B; border-radius:50%; display:inline-block;" title="En línea"></span>
+      </div>
+      <p>Disponible para escuchar y acompañar en momentos difíciles sin juzgar.</p>
+      <span class="badge badge-green">Apoyo emocional</span>
+      <div class="mt-2">
+        <button class="btn btn-success btn-sm">Hablar ahora</button>
+      </div>
+    </div>
+
+    <div class="user-card">
+      <div class="user-card-avatar">🌊</div>
+      <div class="flex-between mb-1">
+        <h3>Marea42</h3>
+        <span style="width:9px; height:9px; background:#CBD5E0; border-radius:50%; display:inline-block;" title="Ausente"></span>
+      </div>
+      <p>Trabajó su autoestima después de relaciones difíciles. Aquí para orientar.</p>
+      <span class="badge badge-orange">Autoestima</span>
+      <div class="mt-2">
+        <button class="btn btn-outline btn-sm">Dejar mensaje</button>
+      </div>
+    </div>
+
+    <div class="user-card">
+      <div class="user-card-avatar">🌺</div>
+      <div class="flex-between mb-1">
+        <h3>Flor11</h3>
+        <span style="width:9px; height:9px; background:#0D9F6B; border-radius:50%; display:inline-block;" title="En línea"></span>
+      </div>
+      <p>Experta en manejar problemas familiares y conflictos de comunicación.</p>
+      <span class="badge badge-navy">Familia</span>
+      <div class="mt-2">
+        <button class="btn btn-success btn-sm">Hablar ahora</button>
+      </div>
+    </div>
+
+    <div class="user-card">
+      <div class="user-card-avatar">🦋</div>
+      <div class="flex-between mb-1">
+        <h3>Mariposa88</h3>
+        <span style="width:9px; height:9px; background:#0D9F6B; border-radius:50%; display:inline-block;" title="En línea"></span>
+      </div>
+      <p>Superó la soledad y encontró comunidad. Siempre dispuesta a escuchar.</p>
+      <span class="badge badge-purple">Soledad</span>
+      <div class="mt-2">
+        <button class="btn btn-success btn-sm">Hablar ahora</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="js/users.js"></script>
+</body>
+</html>
